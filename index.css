@@ -1,0 +1,71 @@
+body {
+    background-color: bisque;
+}
+
+/*Selector por etiqueta */
+h3 {
+    color: blue;
+}
+
+/*Selector por clase (.)*/
+.título {
+    color: rgb(127, 204, 178);
+}
+
+/*Selector por clase (.)*/
+.título2 {
+    color: rgb(194, 84, 103);
+}
+
+/*Selector por id (#)*/
+#mejortitulo {
+    color: chartreuse;
+    background-color: black;
+}
+
+/*Unidad de medida absoluta (px)*/
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/*Unidad de medida relativa (%)*/
+.cuadrado2 {
+    /*width=ancho*/
+    width: 20%;
+    /*height=alto*/
+    height: 40%;
+    background-color: rgb(139, 139, 187);
+}
+
+.flor {
+    width: 500px;
+    height: 500px;
+    background-image: url("https://th.bing.com/th/id/OIP._3NADi7y0lWOrBQUP28B4gHaD0?w=330&h=179&c=7&r=0&o=5&pid=1.7");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flor2 {
+    width: 40%;
+    height: 60%;
+    background-image: url("./imagenes/th.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parrafo1 {
+    color: chocolate;
+}
+
+.parrafo2 {
+    color: #156231;
+}
+
+.parrafo3 {
+    color: rgb(15, 160, 200);
+}
+.parrafo4 {
+    color: rgba(15, 160, 200, 0.4);
+}
